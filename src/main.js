@@ -8,7 +8,9 @@ import { createPinia } from 'pinia'
 import 'bootstrap/dist/css/bootstrap.css'
 
 // Importerar Bootstrap JavaScript-filer
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
+import bootstrap from 'bootstrap/dist/js/bootstrap.js'
+
+import "bootstrap"
 
 // Importerar huvudkomponenten App.vue
 import App from './App.vue'
@@ -18,6 +20,7 @@ import router from './router'
 
 // Importerar anpassade CSS-stilar från filen base.css
 import './assets/base.css'
+
 
 // Skapar en Vue-applikation
 const app = createApp(App)

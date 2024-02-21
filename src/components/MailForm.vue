@@ -21,7 +21,7 @@
             },
             // En metod som använder en regex för att validera e-postadressen
             validEmail: function (email) {
-                var re = /(.+)@(.+){2,}\.(.+){2,}/
+                let re = /(.+)@(.+){2,}\.(.+){2,}/
                 return re.test(email.toLowerCase())
             },
             // En metod för att skicka formuläret, kallar på validering först
